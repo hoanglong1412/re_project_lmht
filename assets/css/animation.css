@@ -1,0 +1,139 @@
+@keyframes round-move{
+    from{
+         transform: rotate(0deg) ;
+
+    }
+    to{
+        transform: rotate(360deg) ;
+
+   }
+}
+@keyframes goskew{
+    0%{
+        transform: translate(0%,0%) skew(45deg);
+
+    }
+    100%{
+        transform: translate(500%,0%) skew(45deg);
+
+    }
+}
+@keyframes goskew2{
+    0%{
+        transform: translate(500%,0%) skew(45deg);
+
+
+    }
+    100%{
+        transform: translate(0%,0%) skew(45deg);
+
+
+    }
+}
+@keyframes toright{
+    from{
+        transform: translate(-100%,0);
+    }
+    to{
+        transform: translate(0,0);
+
+    }
+}
+@keyframes tobottom{
+    from{
+        transform: translate(0%,-100%);
+    }
+    to{
+        transform: translate(0,0);
+
+    }
+}
+@keyframes toleft{
+    from{
+        transform: translate(100%,0);
+
+    }
+    to{
+        transform: translate(0,0);
+
+    }
+}
+@keyframes totop{
+    from{
+        transform: translate(0%,100%);
+
+    }
+    to{
+        transform: translate(0,0);
+
+    }
+}
+@keyframes stylechamp{
+    0%,32%{
+        background-image: url(../img/style__1.png);
+    }
+    33%,65%{
+        background-image: url(../img/style__2.png);
+    }
+    66%,99%{
+        background-image: url(../img/style__3.png);
+    }
+}
+
+@keyframes mirror{
+    0%,90%{
+        left: -50%;
+    }
+    100%{
+        left:  110%;
+
+    }
+}
+
+@keyframes textmove{
+    0%{
+        transform: translate(0,0);
+    }
+    33%{
+        transform: translate(-2px,-2px);
+    }
+    66%{
+        transform: translate(-4px,0);
+    }
+    99%{
+        transform: translate(0,0);
+    }
+}
+
+@keyframes styleskew{
+    0%,100%{
+        transform: rotate(45deg) skewX(0);
+
+    }
+    50%{
+        transform: rotate(45deg) skewX(1deg);
+
+    }
+}
+@keyframes style_back_move{
+    0%{
+        transform: translate(-0,0);
+    }
+    50%{
+         transform: translate(-10px,2px);
+    }
+    100%{
+        transform: translate(-0,0);
+    }
+}
+
+@keyframes turn__around{
+    from
+    {
+        transform: rotate(0);
+    }
+    to{
+        transform: rotate(360deg);
+
+    }
+}
